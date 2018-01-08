@@ -1,51 +1,59 @@
 /*Steam Controller Styling*/
 
 .controller.custom{
-    width: 668px;
-    height: 480px;
+    width: 320px;
+    height: 100px;
 }
 
 .custom .triggers{
-    width: 520px;
-    height: 121px;
+    width: 100px;
+    height: 100px;
     position: absolute;
-    left: 126px;
-    top: 239px;
-    background: url(http://i.imgur.com/GaV5RBy.png);
+    left: 0px;
+    top: 0px;
+    background: url(https://raw.githubusercontent.com/sKiLLeFF/SimpleRacePadOverlay/master/button_off.png);
     /* background-position: -152px 0px; */
     -webkit-clip-path: 50%;
 }
 .custom .trigger{
-    width: 88px;
-    height: 121px;
-    background: url(http://mrmcpowned.com/gamepad/xbox-assets/trigger.svgz);
-    opacity: 0;
+    width: 100px;
+    height: 100px;
 }
 .custom .trigger.left{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background: url(https://raw.githubusercontent.com/sKiLLeFF/SimpleRacePadOverlay/master/brake.png);
     float: left;
-    background-position:0 0;
 }
 .custom .trigger.right{
+    position: absolute;
+    left: 200px;
+    top: 0px;
+    background: url(https://raw.githubusercontent.com/sKiLLeFF/SimpleRacePadOverlay/master/accelerate.png);
     float: right;
-    transform: rotateY(180deg);
 }
 
+.custom .sticks{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 100px;
+    top: 100px;
+    background: url(https://raw.githubusercontent.com/sKiLLeFF/SimpleRacePadOverlay/master/joystick_bg.png);;
+    -webkit-clip-path: circle(50% at center);
+    clip-path: circle(50% at center);
+}
 .custom .stick{
     position: absolute;
-    background: url(http://mrmcpowned.com/gamepad/xbox-assets/stick.svgz);
-    background-position: -85px 0;
-    height: 83px;
-    width: 83px;
+    background: url(https://raw.githubusercontent.com/sKiLLeFF/SimpleRacePadOverlay/master/joystick_fg.png);
+    height: 100px;
+    width: 100px;
 }
 
 .custom .stick.left{
     top: 24px;
     left: 27px;
-}
-.custom .stick.right{
-    top: 113px;
-    left: 288px;
-    display: none;
 }
 
 .custom.half{
