@@ -1,14 +1,10 @@
 /*Steam Controller Styling*/
 .controller.custom{
     background: url(https://raw.githubusercontent.com/sKiLLeFF/SteamControllerOverlay/master/steam_controller_home.png);
-    height: 668px;
     width: 480px;
-    margin-left: -334px;
-    margin-top: -240px;
+    height: 668px;
 }
-.custom.white{
 
-}
 .custom.disconnected {
     
 }
