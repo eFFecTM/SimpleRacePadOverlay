@@ -37,21 +37,19 @@
     width: 100px;
     height: 100px;
     left: 100px;
-    top: 100px;
+    top: 0px;
     background: url(https://raw.githubusercontent.com/sKiLLeFF/SimpleRacePadOverlay/master/joystick_bg.png);;
-    -webkit-clip-path: circle(50% at center);
-    clip-path: circle(50% at center);
 }
 .custom .stick{
     position: absolute;
-    background: url(https://raw.githubusercontent.com/sKiLLeFF/SimpleRacePadOverlay/master/joystick_fg.png);
     height: 100px;
     width: 100px;
 }
 
 .custom .stick.left{
-    top: 24px;
-    left: 27px;
+    top: 0px;
+    left: 0px;
+    background: url(https://raw.githubusercontent.com/sKiLLeFF/SimpleRacePadOverlay/master/joystick_fg.png);
 }
 
 .custom.half{
