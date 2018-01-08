@@ -1,13 +1,13 @@
-/*BEGIN Xbox One Controller Styling*/
+/*Steam Controller Styling*/
 .controller.custom{
-    /* background: url(http://mrmcpowned.com/gamepad/xbox-assets/base.svgz); */
+    background: url(https://github.com/sKiLLeFF/SteamControllerOverlay/blob/master/steam_controller_home.png);
     height: 668px;
     width: 480px;
     /*margin-left: -375px;
     margin-top: -285px;*/
 }
 .custom.white{
-    background: url(https://github.com/sKiLLeFF/SteamControllerOverlay/blob/master/steam_controller_home.png);
+
 }
 .custom.disconnected {
     
@@ -232,4 +232,3 @@
 .custom{
     background: no-repeat center;
 }
-/*END Xbox One Controller Styling*/
