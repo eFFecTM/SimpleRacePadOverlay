@@ -3,14 +3,13 @@
 .controller.custom{
     width: 320px;
     height: 100px;
+    left: 0px;
+    top: 0px;
 }
 
 .custom .triggers{
     width: 100px;
     height: 100px;
-    position: absolute;
-    left: 0px;
-    top: 0px;
     background: url(https://raw.githubusercontent.com/sKiLLeFF/SimpleRacePadOverlay/master/button_off.png);
 }
 .custom .trigger{
