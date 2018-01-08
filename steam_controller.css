@@ -32,12 +32,7 @@
 }
 
 .custom .sticks{
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    left: 100px;
-    top: 0px;
-    background: url(https://raw.githubusercontent.com/sKiLLeFF/SimpleRacePadOverlay/master/joystick_bg.png);
+    
 }
 .custom .stick{
     position: absolute;
@@ -46,8 +41,14 @@
 }
 
 .custom .stick.left{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 100px;
     top: 0px;
-    left: 0px;
     background: url(https://raw.githubusercontent.com/sKiLLeFF/SimpleRacePadOverlay/master/joystick_fg.png);
 }
 
+.custom{
+    background: no-repeat center;
+}
