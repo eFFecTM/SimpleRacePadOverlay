@@ -5,20 +5,19 @@
     height: 100px;
     left: 0px;
     top: 0px;
-    background: url(https://raw.githubusercontent.com/sKiLLeFF/SimpleRacePadOverlay/master/button_off.png);
+    background: url(https://raw.githubusercontent.com/sKiLLeFF/SimpleRacePadOverlay/master/background.png);
 }
 
 .custom .triggers{
-    width: 100px;
-    height: 100px;
-    background: url(https://raw.githubusercontent.com/sKiLLeFF/SimpleRacePadOverlay/master/button_off.png);
 }
+
 .custom .trigger{
-    width: 100px;
-    height: 100px;
 }
+
 .custom .trigger.left{
     position: absolute;
+    width: 100px;
+    height: 100px;
     left: 0px;
     top: 0px;
     background: url(https://raw.githubusercontent.com/sKiLLeFF/SimpleRacePadOverlay/master/brake.png);
@@ -26,6 +25,8 @@
 }
 .custom .trigger.right{
     position: absolute;
+    width: 100px;
+    height: 100px;
     left: 200px;
     top: 0px;
     background: url(https://raw.githubusercontent.com/sKiLLeFF/SimpleRacePadOverlay/master/accelerate.png);
