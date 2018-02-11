@@ -1,0 +1,54 @@
+/*Steam Controller Styling*/
+
+.controller.custom{
+    width: 300px;
+    height: 100px;
+    background: url(https://raw.githubusercontent.com/sKiLLeFF/SimpleRacePadOverlay/master/background.png);
+}
+
+.custom .triggers{
+}
+
+.custom .trigger{
+}
+
+.custom .trigger.left{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+    background: url(https://raw.githubusercontent.com/sKiLLeFF/SimpleRacePadOverlay/master/brake.png);
+    float: left;
+}
+.custom .trigger.right{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 200px;
+    top: 0px;
+    background: url(https://raw.githubusercontent.com/sKiLLeFF/SimpleRacePadOverlay/master/accelerate.png);
+    float: right;
+}
+
+.custom .sticks{
+    
+}
+.custom .stick{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+}
+
+.custom .stick.left{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 100px;
+    top: 0px;
+    background: url(https://raw.githubusercontent.com/sKiLLeFF/SimpleRacePadOverlay/master/joystick_fg.png);
+}
+
+.custom{
+    background: no-repeat center;
+}
