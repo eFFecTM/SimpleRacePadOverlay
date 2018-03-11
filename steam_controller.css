@@ -48,6 +48,7 @@
     left: 0px;
     top: 0px;
     background: url(https://raw.githubusercontent.com/sKiLLeFF/SimpleRacePadOverlay/master/Effect_ControllerJOYSTICK.png);
+    float: left;
 }
 
 .custom .stick.pressed.right{
@@ -57,6 +58,7 @@
     left: 0px;
     top: 0px;
     background: url(https://raw.githubusercontent.com/sKiLLeFF/SimpleRacePadOverlay/master/Effect_ControllerBRAKE.png);
+    float: right;
 }
 
 .custom{
