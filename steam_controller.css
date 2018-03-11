@@ -12,7 +12,7 @@
 .custom .trigger{
 }
 
-.custom .trigger.left .stick.pressed.right{
+.custom .trigger.left{
     position: absolute;
     width: 200px;
     height: 200px;
@@ -21,6 +21,17 @@
     background: url(https://raw.githubusercontent.com/sKiLLeFF/SimpleRacePadOverlay/master/Effect_ControllerBRAKE.png);
     float: left;
 }
+
+.custom .stick.pressed.right{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 0px;
+    top: 0px;
+    background: url(https://raw.githubusercontent.com/sKiLLeFF/SimpleRacePadOverlay/master/Effect_ControllerBRAKE.png);
+    float: left;
+}
+
 .custom .trigger.right{
     position: absolute;
     width: 200px;
