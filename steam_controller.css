@@ -12,7 +12,7 @@
 .custom .trigger{
 }
 
-.custom .trigger.left{
+.custom .trigger.left .stick.pressed.right{
     position: absolute;
     width: 200px;
     height: 200px;
@@ -34,6 +34,7 @@
 .custom .sticks{
     
 }
+
 .custom .stick{
     position: absolute;
     height: 200px;
